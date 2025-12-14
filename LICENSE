@@ -1,0 +1,108 @@
+SOULWIRE CORE LICENSE v1.0 (SWCL)
+© 2025 xxTaffyx — All Rights Reserved Except Where Noted
+
+This software is the exclusive intellectual property of xxTaffyx (“the Author”).  
+By using, installing, modifying, or interacting with any part of SoulWire, you agree to the following terms:
+
+----------------------------------------------------------------------
+SECTION 1 — OWNERSHIP AND RIGHTS
+----------------------------------------------------------------------
+1.1  
+All source code, binaries, design systems, architecture, features, AIs, UX,  
+and conceptual frameworks of the SoulWire Core are owned solely by the Author.
+
+1.2  
+You MAY NOT:
+- copy the SoulWire source code  
+- redistribute or rebrand it  
+- integrate it into your own applications  
+- convert it into closed-source or commercial software  
+- use SoulWire code to build competing software  
+- claim authorship  
+
+1.3  
+You MAY:
+- develop plugins, extensions, add-ons, themes, assets, or integrations  
+- publicly distribute plugins you create  
+- use the public SoulWire Plugin API  
+- showcase your work as “For SoulWire”  
+- use screenshots or UI for demonstration purposes only (with credit)
+
+----------------------------------------------------------------------
+SECTION 2 — ATTRIBUTION
+----------------------------------------------------------------------
+2.1  
+All works, plugins, forks, demonstrations, and research based on SoulWire  
+must include clear attribution:
+
+“Built for SoulWire by xxTaffyx (https://github.com/xxTaffyx)”
+
+2.2  
+Removing or obscuring attribution is strictly prohibited.
+
+----------------------------------------------------------------------
+SECTION 3 — RESTRICTIONS
+----------------------------------------------------------------------
+The following are strictly forbidden:
+
+- copying or reusing SoulWire internal code  
+- extracting proprietary systems  
+- hosting modified versions of SoulWire  
+- selling access to SoulWire without permission  
+- using SoulWire to create commercial clones  
+- scraping or reverse engineering internal modules  
+
+----------------------------------------------------------------------
+SECTION 4 — PLUGIN PERMISSIONS
+----------------------------------------------------------------------
+4.1  
+Plugins MUST:
+- use only the public plugin API  
+- remain sandboxed  
+- not modify the SoulWire Core  
+- not break safety systems  
+- not remove or bypass age restrictions  
+- not violate legal, medical, or privacy boundaries  
+
+4.2  
+Plugin authors retain ownership of their own plugin code.
+
+4.3  
+The Author may revoke plugin access for security or safety reasons.
+
+----------------------------------------------------------------------
+SECTION 5 — TRADEMARKS
+----------------------------------------------------------------------
+“SoulWire,” “Betsy,” “Tilda,” “May,” “Clara,” “Lana,”  
+all SoulWire Realm names, icons, logos,  
+and all branding elements are the exclusive trademarks of xxTaffyx.
+
+No permission is granted to use, modify, or replicate these except for plugins  
+that integrate with SoulWire and reference the platform legitimately.
+
+----------------------------------------------------------------------
+SECTION 6 — LIABILITY
+----------------------------------------------------------------------
+SoulWire is provided “AS IS” with no warranty.  
+The Author is not responsible for:
+- damages  
+- data loss  
+- plugin misuse  
+- unauthorized forks or modifications  
+
+----------------------------------------------------------------------
+SECTION 7 — COMMERCIAL USE
+----------------------------------------------------------------------
+SoulWire Core may NOT be used commercially without explicit written permission  
+from the Author.
+
+Plugins MAY be sold commercially if:
+- they do not contain SoulWire code  
+- they clearly state they are third-party  
+- attribution is included  
+
+----------------------------------------------------------------------
+
+END OF LICENSE
+SOULWIRE CORE LICENSE v1.0  
+© 2025 xxTaffyx — All Rights Reserved
