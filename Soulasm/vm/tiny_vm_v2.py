@@ -18,6 +18,18 @@ class SoulVM:
             0x05: self.sub,     # NEW: Subtract
             0x06: self.jump,    # NEW: Jump to address
             0x07: self.jz,      # NEW: Jump if zero
+            0x08: self.mul,     # NEW: Multiply
+            0x09: self.div,     # NEW: Divide
+            0x0A: self.mod,     # NEW: Modulo
+            0x0B: self.and_op,  # NEW: Bitwise AND
+            0x0C: self.or_op,   # NEW: Bitwise OR
+            0x0D: self.xor_op,  # NEW: Bitwise XOR
+            0x0E: self.not_op,  # NEW: Bitwise NOT
+            0x0F: self.shl,     # NEW: Shift left
+            0x10: self.shr,     # NEW: Shift right
+            0x11: self.rol      # NEW: Rotate left
+            0x12: self.ror      # NEW: Rotate right
+
         }
         
         print("SoulVM v0.002 - Now with control flow!")
@@ -40,6 +52,69 @@ class SoulVM:
         self.pc += 1
         value = self.memory[self.pc]
         self.accumulator -= value
+
+    def mul(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator *= value
+    
+    def div(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        if value != 0:
+            self.accumulator //= value
+        else:
+            print("Division by zero! Soul is confused.")
+            self.running = False
+
+    def mod(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        if value != 0:
+            self.accumulator %= value
+        else:
+            print("Modulo by zero! Soul is confused.")
+            self.running = False
+    
+    def and_op(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator &= value
+    
+    def or_op(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator |= value
+
+    def xor_op(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator ^= value
+
+    def not_op(self):
+        self.accumulator = ~self.accumulator
+
+    def shl(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator <<= value
+    
+    def shr(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator >>= value
+
+    def rol(self):
+        self.pc += 1
+        value = self.memory[self.pc] % 8
+        self.accumulator = ((self.accumulator << value) | (self.accumulator >> (8 - value))) & 0xFF
+
+    def ror(self):
+        self.pc += 1
+        value = self.memory[self.pc] % 8
+        self.accumulator = ((self.accumulator >> value) | (self.accumulator << (8 - value))) & 0xFF
+
+
     
     def print(self):
         print(f"Soul speaks: {self.accumulator}")

@@ -8,6 +8,18 @@ class SoulAssembler:
             'LOAD': 0x01,
             'ADD': 0x02,
             'PRINT': 0x03,
+            'SUB': 0x05,
+            'MUL': 0x06,
+            'DIV': 0x09,
+            'MOD': 0x0A,
+            'AND': 0x0B,
+            'OR': 0x0C,
+            'XOR': 0x0D,
+            'NOT': 0x0E,
+            'SHL': 0x0F,
+            'SHR': 0x10,
+            'ROL': 0x11,
+            'ROR': 0x12
         }
     
     def assemble(self, code):
