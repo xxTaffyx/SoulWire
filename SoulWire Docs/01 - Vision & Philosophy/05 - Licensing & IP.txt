@@ -1,0 +1,83 @@
+SOULWIRE - LICENSING & INTELLECTUAL PROPERTY
+
+OWNERSHIP
+
+All SoulWire intellectual property is owned by xxTaffyx.
+
+This includes:
+- The SoulWire name and brand
+- All Guardian AI personalities (Betsy, Clara, May, Lana, Tilda)
+- All Realm concepts and designs
+- All hardware designs and names
+- SoulLang programming language
+- SoulOS operating system
+- World Engine simulation
+- All documentation and specifications
+
+
+COPYRIGHT NOTICE
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved
+
+No part of this project may be reproduced, distributed, or transmitted in any form without prior written permission from the copyright holder.
+
+
+TRADEMARK PROTECTION
+
+The following are trademarks of SoulWire:
+- SoulWire
+- SoulOS
+- SoulLang
+- SoulBank
+- SoulPhone
+- SoulWatch
+- SoulGlass
+- SoulLink
+- SoulBody
+- Soul Companion
+- SoulChild
+- All Guardian names (Betsy, Clara, May, Lana, Tilda)
+- All Realm names
+- "Hollow Hearth"
+- "Dream-Circuit"
+- "Trust, not surveillance"
+
+
+PERMITTED USE
+
+You MAY:
+- Read and learn from this documentation
+- Reference SoulWire in articles/videos with proper attribution
+- Discuss SoulWire concepts publicly
+
+You MAY NOT:
+- Copy or reproduce any SoulWire content
+- Create derivative works based on SoulWire
+- Use SoulWire names or branding for any purpose
+- Claim any SoulWire concepts as your own
+- Build products based on SoulWire specifications
+
+
+FUTURE LICENSING
+
+Some components of SoulWire may be released under open-source licenses in the future. Until such time, all rights are reserved.
+
+Potential future open-source components:
+- Cryptographic primitives (for security audit)
+- Certain SoulCore libraries
+- Security architecture documentation
+
+Any open-source releases will be clearly marked with appropriate licenses.
+
+
+ENFORCEMENT
+
+SoulWire takes intellectual property protection seriously. Violations will be pursued to the full extent of the law.
+
+
+CONTACT
+
+For licensing inquiries: xxtaffyx@gmail.com
+
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved

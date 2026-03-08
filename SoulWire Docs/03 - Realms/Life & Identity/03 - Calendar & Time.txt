@@ -1,0 +1,122 @@
+SOULWIRE - CALENDAR & TIME
+
+TIME, UNIFIED
+
+The Calendar & Time features unify your schedule across all of life - work, personal, family, everything in one view.
+
+
+ONE CALENDAR
+
+Everything Together:
+- Work calendar
+- Personal calendar
+- Family calendar
+- Appointments
+- Events
+- Reminders
+
+Or Separate:
+- View by category
+- Work-only view
+- Personal-only view
+- Your preference
+
+
+SCHEDULING
+
+Betsy Helps:
+- "You have a conflict on Tuesday."
+- "That meeting is during your usual lunch time."
+- "You haven't scheduled any downtime this week."
+
+Smart Scheduling:
+- Conflict detection
+- Travel time calculation
+- Buffer recommendations
+- Balance awareness
+
+
+APPOINTMENTS
+
+Management:
+- All appointments tracked
+- Reminders (multiple)
+- Preparation reminders
+- Follow-up reminders
+
+Integration:
+- Medical appointments (Health Realm)
+- Work meetings (Career Realm)
+- Personal events (Life Realm)
+
+
+FAMILY COORDINATION
+
+Shared Calendars:
+- Family calendar
+- Who's doing what
+- Kid activities
+- Family events
+
+Conflict Resolution:
+- "Both parents have meetings at 3pm on Thursday."
+- Coordination support
+
+
+TIME ZONES
+
+For Travelers/Remote Workers:
+- Multiple time zone support
+- Meeting time conversion
+- Travel schedule adjustment
+- Jet lag awareness
+
+
+RECURRING EVENTS
+
+Patterns:
+- Daily, weekly, monthly
+- Complex patterns
+- Exception handling
+- Series management
+
+
+REMINDERS
+
+Flexible Reminders:
+- Multiple reminders per event
+- Location-based reminders
+- Custom timing
+- Different notification types
+
+
+NATURAL LANGUAGE
+
+Just Say It:
+- "Dinner with mom next Tuesday at 7"
+- "Remind me to call the dentist tomorrow"
+- "Block 2 hours for deep work on Friday"
+
+
+BALANCE
+
+Life Balance View:
+- Where your time goes
+- Work vs. personal
+- Scheduled vs. free
+- Pattern awareness
+
+Betsy notices:
+- "You've scheduled no personal time this month."
+- "Every evening is scheduled - intentional?"
+
+
+INTEGRATION
+
+With All Realms: Everything flows to calendar
+With Family Realm: Family coordination
+With Health Realm: Medical appointments
+With Career Realm: Work scheduling
+
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved

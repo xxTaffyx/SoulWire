@@ -1,0 +1,119 @@
+SOULWIRE - CONTRIBUTING
+
+HOW TO CONTRIBUTE
+
+SoulWire is building something ambitious. Here's how you can be part of it.
+
+
+WAYS TO CONTRIBUTE
+
+Development:
+- Open source contributions
+- SoulLang development
+- SoulCore libraries
+- Bug fixes and improvements
+
+Documentation:
+- Documentation improvements
+- Translation
+- Tutorial creation
+- Example code
+
+Design:
+- UI/UX feedback
+- Accessibility testing
+- Design contributions
+- User research
+
+Community:
+- Helping other users
+- Community moderation
+- Event organization
+- Advocacy
+
+
+CODE CONTRIBUTIONS
+
+Process:
+1. Fork the repository
+2. Create a branch
+3. Make changes
+4. Test thoroughly
+5. Submit pull request
+6. Respond to feedback
+7. Merge when approved
+
+Standards:
+- Follow code style guide
+- Include tests
+- Update documentation
+- Sign-off on commits
+
+
+NON-CODE CONTRIBUTIONS
+
+Documentation:
+- Found an error? Fix it
+- Missing explanation? Add it
+- Confusing section? Clarify it
+- New language? Translate it
+
+Testing:
+- Test features
+- Report bugs
+- Verify fixes
+- Accessibility testing
+
+
+FEEDBACK
+
+We Want to Hear:
+- What works
+- What doesn't
+- What's missing
+- What's confusing
+
+How to Give:
+- GitHub issues
+- Community forums
+- Direct feedback channels
+- User research participation
+
+
+COMMUNITY PARTICIPATION
+
+Be Part Of:
+- Discussion forums
+- Community calls
+- Local meetups
+- Online events
+
+
+RECOGNITION
+
+We Appreciate:
+- All contributions acknowledged
+- Significant contributions highlighted
+- Community recognition
+- Contributor programs
+
+
+CODE OF CONDUCT
+
+Required:
+- Respectful participation
+- Constructive feedback
+- Inclusive behavior
+- Following guidelines
+
+
+WHERE TO START
+
+Best First Steps:
+- Read the documentation
+- Join the community
+- Find a "good first issue"
+- Ask questions
+
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved

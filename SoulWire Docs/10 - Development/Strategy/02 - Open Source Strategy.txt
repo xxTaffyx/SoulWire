@@ -1,0 +1,98 @@
+SOULWIRE - OPEN SOURCE STRATEGY
+
+OPEN WHERE IT MAKES SENSE
+
+SoulWire's approach to open source - what's open, what's proprietary, and why.
+
+
+PHILOSOPHY
+
+Open by Default:
+- Prefer open when possible
+- Transparency builds trust
+- Community improves code
+- Open benefits everyone
+
+But Not Everything:
+- Some things need to be proprietary
+- Security through obscurity (sometimes)
+- Business sustainability
+- Competitive advantage
+
+
+WHAT'S OPEN
+
+Will Be Open:
+- SoulLang (the language)
+- SoulCore (standard library)
+- Security components (for audit)
+- Protocols and standards
+- Reference implementations
+- Developer tools
+
+Why Open:
+- Trust requires transparency
+- Community improves safety
+- Standards need openness
+- Developer ecosystem needs tools
+
+
+WHAT'S PROPRIETARY
+
+Will Be Proprietary:
+- Guardian AI models (core)
+- Specific service implementations
+- Hardware designs (some)
+- Business-specific components
+
+Why Proprietary:
+- Competitive sustainability
+- Investment protection
+- Quality control
+- Business model
+
+
+THE BALANCE
+
+Open:
+- Where trust requires transparency
+- Where community improves things
+- Where standards are needed
+- Where ecosystem benefits
+
+Proprietary:
+- Where business model requires
+- Where quality control matters
+- Where competition exists
+
+
+COMMUNITY
+
+Open Source Community:
+- Contributors welcome
+- Clear contribution guidelines
+- Code of conduct
+- Recognition and appreciation
+
+Governance:
+- Clear decision-making
+- Community input valued
+- Transparent roadmap
+- Responsive to needs
+
+
+LICENSING
+
+Open Source Licenses:
+- Appropriate licenses per project
+- Clear licensing terms
+- Commercial use considerations
+- Community-friendly
+
+
+THE COMMITMENT
+
+SoulWire commits to meaningful open source participation - not just open-washing, but genuine contribution to the commons while building a sustainable business.
+
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved

@@ -1,0 +1,126 @@
+SOULWIRE - SOULHUB
+
+THE BRAIN OF YOUR HOME
+
+SoulHub is the central controller for your smart home - connecting all your devices, providing voice control, and keeping everything private.
+
+
+WHAT IT DOES
+
+Central Control:
+- Connects all smart home devices
+- Unified control interface
+- Automation engine
+- Voice assistant
+
+Hub for Everything:
+- Lighting
+- Climate
+- Security
+- Entertainment
+- Appliances
+
+
+PRIVACY FIRST
+
+Unlike Other Hubs:
+- Local processing (voice can stay local)
+- No required cloud dependency
+- Your data stays in your home
+- Transparent about what's processed where
+
+Voice Privacy:
+- Push-to-talk option
+- Wake word of your choice
+- Clear listening indicators
+- Voice data control
+
+
+COMPATIBILITY
+
+Works With:
+- SoulWire devices (native)
+- Matter devices
+- Zigbee devices
+- Z-Wave devices
+- WiFi devices
+- Major smart home brands
+
+No Lock-In:
+- Open standards supported
+- Mix and match brands
+- Your choice of devices
+
+
+VOICE CONTROL
+
+Talk to Your Home:
+- Control any device
+- Ask Betsy questions
+- Set routines
+- Natural language
+
+Multiple Wake Words:
+- Choose what feels right
+- Change anytime
+- Or use push-to-talk only
+
+
+AUTOMATION
+
+Smart Routines:
+- Time-based
+- Presence-based
+- Condition-based
+- Multi-device coordination
+
+Examples:
+- "Good morning" routine
+- "Leaving home" routine
+- "Movie time" scene
+- Custom automations
+
+
+INTERFACE
+
+Control Options:
+- Voice control
+- SoulPhone app
+- SoulTab app
+- Physical interface on device
+- Web interface
+
+
+MODELS
+
+SoulHub:
+- Standard home use
+- All core features
+- Most homes
+
+SoulHub Pro:
+- Larger homes
+- More device capacity
+- Extended range
+- Advanced automation
+
+
+PLACEMENT
+
+Designed For:
+- Living spaces
+- Quality audio
+- Attractive design
+- Multiple room options
+
+
+SECURITY
+
+Lana Integration:
+- Security monitoring
+- Intrusion detection
+- Camera coordination
+- Alert management
+
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved

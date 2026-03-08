@@ -1,0 +1,105 @@
+SOULWIRE - ENCRYPTION
+
+ENCRYPTION EVERYWHERE
+
+How SoulWire uses encryption to protect your data - in transit, at rest, and end-to-end.
+
+
+ENCRYPTION PHILOSOPHY
+
+Everything Encrypted:
+- Data moving: encrypted
+- Data stored: encrypted
+- Communications: encrypted
+- Maximize protection
+
+Defense in Depth:
+- Multiple layers
+- If one fails, others protect
+- Belt and suspenders approach
+
+
+IN-TRANSIT ENCRYPTION
+
+Data Moving:
+- TLS 1.3 everywhere
+- Certificate pinning
+- No downgrade attacks
+- Modern cipher suites
+
+Protects Against:
+- Man-in-the-middle attacks
+- Network eavesdropping
+- WiFi snooping
+
+
+AT-REST ENCRYPTION
+
+Data Stored:
+- All data encrypted at rest
+- Strong encryption algorithms
+- Key management best practices
+- Even we can't access without keys
+
+Protects Against:
+- Data breaches
+- Physical theft
+- Insider threats
+
+
+END-TO-END ENCRYPTION
+
+For Communications:
+- Messages encrypted end-to-end
+- Only you and recipient can read
+- We cannot read your messages
+- Even if compelled
+
+How It Works:
+- Keys on your devices
+- We don't have the keys
+- Cannot be decrypted in transit
+- True privacy
+
+
+ZERO-KNOWLEDGE (WHERE POSSIBLE)
+
+Some Data:
+- Encrypted so we can't see it
+- Only you can decrypt
+- True privacy
+- Trade-off: We can't help if you lose key
+
+Available For:
+- Sensitive vaults
+- Private notes
+- Certain storage
+
+
+KEY MANAGEMENT
+
+Your Keys:
+- Securely generated
+- Securely stored
+- Backup options
+- Recovery planning
+
+
+QUANTUM RESISTANCE
+
+Future-Proofing:
+- Working on post-quantum cryptography
+- Protecting against future threats
+- Staying ahead
+
+
+TRANSPARENCY
+
+Open About:
+- What encryption we use
+- What we can/can't see
+- Limitations
+- How it's implemented
+
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved

@@ -1,0 +1,86 @@
+SOULWIRE - VEHICLE REALM
+
+YOUR VEHICLES, MANAGED
+
+The Vehicle Realm handles everything about your cars, motorcycles, boats, or any other vehicles you own or use.
+
+
+CORE FEATURES
+
+Vehicle Management:
+- Registration tracking
+- Insurance management
+- Title documentation
+- Loan/lease tracking
+
+Maintenance:
+- Service history
+- Upcoming maintenance schedules
+- Oil change reminders
+- Tire rotation tracking
+- Recall alerts
+- Warranty tracking
+
+
+MAINTENANCE INTELLIGENCE
+
+Betsy alerts you:
+- "Oil change due in 500 miles"
+- "Registration expires next month"
+- "There's a recall on your vehicle - here are the details"
+- "Your tires have about 10,000 miles left based on your driving"
+
+Clara researches:
+- Best mechanics in your area
+- Fair prices for services
+- Common issues with your make/model
+- Recall information
+
+
+FUEL & COSTS
+
+Tracking:
+- Fuel expenses
+- Maintenance costs
+- Insurance costs
+- Total cost of ownership
+- Fuel efficiency trends
+
+Analysis:
+- "Your car costs about $X per month to operate"
+- "Fuel efficiency dropped this month - might want to check tire pressure"
+
+
+BUYING & SELLING
+
+When Shopping:
+- Research assistance (Clara)
+- Price comparison
+- Vehicle history reports
+- Dealership reviews
+- Financing options
+
+When Selling:
+- Market value estimates
+- Listing assistance
+- Documentation preparation
+
+
+MULTIPLE VEHICLES
+
+For families or those with multiple vehicles:
+- All vehicles in one place
+- Per-vehicle tracking
+- Family vehicle scheduling
+- Shared vehicle coordination
+
+
+INTEGRATION
+
+With SoulBank: Vehicle payments, insurance, fuel expenses
+With Family Realm: Family vehicle sharing
+With Travel Realm: Road trip planning
+With SoulDrive: In-vehicle integration
+
+
+Copyright 2025-2026 xxTaffyx - All Rights Reserved
