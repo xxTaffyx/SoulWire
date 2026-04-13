@@ -1,64 +1,182 @@
-# SoulASM Virtual Machine v0.001
-# Started: January 4th, 2026
-# "Built from spite and necessity"
+# SoulASM Virtual Machine v0.002
+# Now with memory access and control flow!
 
 class SoulVM:
     def __init__(self):
-        self.memory = [0] * 256  # 256 bytes to start small
-        self.pc = 0  # program counter
+        self.memory = [0] * 256
+        self.pc = 0
         self.accumulator = 0
         self.running = True
         
-        # Our first opcodes!
+        # Expanded instruction set
         self.opcodes = {
-            0x00: self.halt,    # HALT - stop execution
-            0x01: self.load,    # LOAD - load value into accumulator  
-            0x02: self.add,     # ADD - add to accumulator
-            0x03: self.print,   # PRINT - output accumulator
+            0x00: self.halt,
+            0x01: self.load,
+            0x02: self.add,
+            0x03: self.print,
+            0x04: self.store,   # NEW: Store accumulator to memory
+            0x05: self.sub,     # NEW: Subtract
+            0x06: self.jump,    # NEW: Jump to address
+            0x07: self.jz,      # NEW: Jump if zero
+            0x08: self.mul,     # NEW: Multiply
+            0x09: self.div,     # NEW: Divide
+            0x0A: self.mod,     # NEW: Modulo
+            0x0B: self.and_op,  # NEW: Bitwise AND
+            0x0C: self.or_op,   # NEW: Bitwise OR
+            0x0D: self.xor_op,  # NEW: Bitwise XOR
+            0x0E: self.not_op,  # NEW: Bitwise NOT
+            0x0F: self.shl,     # NEW: Shift left
+            0x10: self.shr,     # NEW: Shift right
+            0x11: self.rol,      # NEW: Rotate left
+            0x12: self.ror,      # NEW: Rotate right
+
         }
         
-        print("SoulVM initialized. We're really doing this.")
+        print("SoulVM v0.002 - Now with control flow!")
     
     def halt(self):
         self.running = False
         print("Soul rests.")
     
     def load(self):
-        # Next byte is the value to load
         self.pc += 1
         value = self.memory[self.pc]
         self.accumulator = value
     
     def add(self):
-        # Add next byte to accumulator
         self.pc += 1
         value = self.memory[self.pc]
         self.accumulator += value
     
+    def sub(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator -= value
+
+    def mul(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator *= value
+    
+    def div(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        if value != 0:
+            self.accumulator //= value
+        else:
+            print("Division by zero! Soul is confused.")
+            self.running = False
+
+    def mod(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        if value != 0:
+            self.accumulator %= value
+        else:
+            print("Modulo by zero! Soul is confused.")
+            self.running = False
+    
+    def and_op(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator &= value
+    
+    def or_op(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator |= value
+
+    def xor_op(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator ^= value
+
+    def not_op(self):
+        self.accumulator = ~self.accumulator
+
+    def shl(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator <<= value
+    
+    def shr(self):
+        self.pc += 1
+        value = self.memory[self.pc]
+        self.accumulator >>= value
+
+    def rol(self):
+        self.pc += 1
+        value = self.memory[self.pc] % 8
+        self.accumulator = ((self.accumulator << value) | (self.accumulator >> (8 - value))) & 0xFF
+
+    def ror(self):
+        self.pc += 1
+        value = self.memory[self.pc] % 8
+        self.accumulator = ((self.accumulator >> value) | (self.accumulator << (8 - value))) & 0xFF
+
+
+    
     def print(self):
         print(f"Soul speaks: {self.accumulator}")
     
-    def run(self):
-        # Load a test program: LOAD 42, ADD 13, PRINT, HALT
-        test_program = [
-            0x01, 42,   # LOAD 42
-            0x02, 13,   # ADD 13
-            0x03,       # PRINT (should show 55)
-            0x00        # HALT
-        ]
+    def store(self):
+        # Store accumulator at memory address
+        self.pc += 1
+        address = self.memory[self.pc]
+        self.memory[address] = self.accumulator
+    
+    def jump(self):
+        # Jump to address
+        self.pc += 1
+        self.pc = self.memory[self.pc] - 1  # -1 because pc++ happens after
+    
+    def jz(self):
+        # Jump if accumulator is zero
+        self.pc += 1
+        if self.accumulator == 0:
+            self.pc = self.memory[self.pc] - 1
+    
+    def run(self, program=None):
+        if program:
+            for i, byte in enumerate(program):
+                self.memory[i] = byte
         
-        # Load program into memory
-        for i, byte in enumerate(test_program):
-            self.memory[i] = byte
-        
-        # Execute!
         while self.running and self.pc < 256:
             opcode = self.memory[self.pc]
             if opcode in self.opcodes:
                 self.opcodes[opcode]()
+            else:
+                print(f"Unknown opcode: {opcode} at PC: {self.pc}")
+                self.running = False
             self.pc += 1
 
-# Test it immediately - THESE LINES MUST HAVE NO INDENTATION!
+# Test with a simple countdown
 if __name__ == "__main__":
     vm = SoulVM()
-    vm.run()
+    
+    # Simple test first - USING CORRECT OPCODES
+    program = [
+        0x01, 10,    # LOAD 10
+        0x03,       # PRINT (should show 10)
+        0x05, 1,    # SUB 1 (0x05 is SUB, not 0x02!)
+        0x03,       # PRINT (should show 9)
+        0x05, 1,    # SUB 1
+        0x03,       # PRINT (should show 8)
+        0x05, 1,    # SUB 1
+        0x03,       # PRINT (should show 7)
+        0x08, 2,     # MUL 2 (should show 14)
+        0x03,        # PRINT (should show 14)
+        0X09, 2,     # DIV 2 (should show 7)
+        0x03,        # PRINT (should show 7)
+        0X0A, 3,     # MOD 3 (should show 1)
+        0x03,        # PRINT (should show 1)
+        0X0B, 0x0F,  # AND with 0x0F (should show 1)
+        0x03,        # PRINT (should show 1)
+        0x07, 20,    # JUMP to address 20 (skips next instructions)
+        0x01, 99,    # LOAD 99 (should be skipped)
+        0x06, 25,    # JUMP to address 25 (skips next instructions)
+        0x01, 88,    # LOAD 88 (should be skipped)
+        0x00,         # HALT
+    ]
+    
+    vm.run(program)

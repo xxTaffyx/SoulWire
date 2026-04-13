@@ -1,0 +1,44 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: #1A1A2E; }
+      .nodes { fill: #2DD4BF; }
+      .accents { fill: #8B5CF6; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #1A1A2E; }
+      .nodes { fill: #2DD4BF; }
+      .accents { fill: #8B5CF6; }
+    }
+  </style>
+  <defs>
+    <clipPath id="clip0">
+      <rect width="180" height="180" fill="white" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip0)">
+    <!-- Background -->
+    <rect class="background" width="180" height="180" rx="37" />
+    
+    <!-- Corner accents -->
+    <circle class="accents" cx="30" cy="30" r="3" opacity="0.6"/>
+    <circle class="accents" cx="150" cy="30" r="3" opacity="0.6"/>
+    <circle class="accents" cx="30" cy="150" r="3" opacity="0.6"/>
+    <circle class="accents" cx="150" cy="150" r="3" opacity="0.6"/>
+    
+    <!-- Central node (Soul) -->
+    <circle class="nodes" cx="90" cy="90" r="18"/>
+    
+    <!-- Connected nodes (SoulWire ecosystem) -->
+    <circle class="nodes" cx="90" cy="45" r="12"/>
+    <circle class="nodes" cx="135" cy="90" r="12"/>
+    <circle class="nodes" cx="90" cy="135" r="12"/>
+    <circle class="nodes" cx="45" cy="90" r="12"/>
+    
+    <!-- Connection lines -->
+    <line class="nodes" x1="90" y1="72" x2="90" y2="57" stroke="#2DD4BF" stroke-width="2" opacity="0.5"/>
+    <line class="nodes" x1="108" y1="90" x2="123" y2="90" stroke="#2DD4BF" stroke-width="2" opacity="0.5"/>
+    <line class="nodes" x1="90" y1="108" x2="90" y2="123" stroke="#2DD4BF" stroke-width="2" opacity="0.5"/>
+    <line class="nodes" x1="72" y1="90" x2="57" y2="90" stroke="#2DD4BF" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>

@@ -41,7 +41,14 @@ class SoulAssembler:
                 
                 # If instruction has an argument, add it
                 if len(parts) > 1:
-                    bytecode.append(int(parts[1]))
+                    # support decimal, hex (0x...), octal, binary literals
+                    try:
+                        arg = parts[1]
+                        value = int(arg, 0)          # base=0 lets Python infer the base from prefixes
+                    except ValueError:
+                        print(f"Invalid argument for {instruction}: {parts[1]}")
+                        value = 0
+                    bytecode.append(value)
             else:
                 print(f"Unknown instruction: {instruction}")
         
@@ -57,6 +64,19 @@ if __name__ == "__main__":
     ADD 13      # Add some luck
     PRINT       # Speak the truth
     HALT        # Rest
+    LOAD 10     # Load 10
+    MUL 2       # Double it
+    PRINT       # Should show 20
+    SUB 5       # Subtract 5
+    PRINT       # Should show 15
+    DIV 3       # Divide by 3
+    PRINT       # Should show 5
+    MOD 4       # Modulo 4
+    PRINT       # Should show 1
+    AND 0x0F    # Bitwise AND with 0x0F (should still show 1)
+    PRINT       # Should show 1
+    OR 0xF0     # Bitwise OR with 0xF0 (should show 0xF1)
+    PRINT       # Should show 0xF1
     """
     
     bytecode = asm.assemble(program)
