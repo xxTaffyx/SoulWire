@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16c990317577fec5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "trademark.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "trademark"
-            }
-          },
-          {
             "id": "291e9c5a76000168",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apps/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "README"
+            }
+          },
+          {
+            "id": "8f85703c341c4f97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Operations/INCONSISTENCIES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INCONSISTENCIES"
             }
           }
         ],
@@ -198,9 +198,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "291e9c5a76000168",
+  "active": "8f85703c341c4f97",
   "lastOpenFiles": [
-    "README.md",
+    "LICENSE",
+    "Copyright-Notice.md",
+    "Trademark-Policy.md",
+    "AI/Shared/Family-Tree.md",
+    "AI/Family-Tree.md",
+    "Docs/Legal/Legal-README.md",
+    "Docs/Legal/Privacy-Policy-New.md",
+    "Docs/Legal/Repository-License.md",
+    "Docs/Legal/Copyright-Notice.md",
+    "Docs/Legal/Trademark-Policy.md",
+    "Docs/Bussiness Plan/ENERGY.md",
+    "Docs/World/Buildings.md",
+    "Docs/World/Buildings",
+    "Docs/World/Vortexian.md",
+    "Docs/Bussiness Plan/Ocean.md",
+    "Docs/Bussiness Plan/stellar.md",
+    "Docs/Bussiness Plan/vessel.md",
+    "Docs/security/Ember.md",
+    "Docs/Bussiness Plan/Gatehouse.md",
+    "Docs/Apps/App-Compendium",
+    "Docs/Apps/App Cp,",
+    "Docs/Operations/department.md",
+    "Docs/NSFW/NSFW-SoulBody.md",
+    "Docs/NSFW/NSFW-Intimacy-Devices.md",
+    "Docs/NSFW/NSFW-Ethics.md",
+    "Docs/Legal/trademark.md",
+    "Docs/Legal/privacy_policy.md",
+    "Docs/Hardware/Device-Compendium.md",
+    "Docs/Family/Familyroot.md",
     "Apps/Soulwire-Website/node_modules/next/package.json",
     "Apps/Soulwire-Website/node_modules/next/script.js",
     "Apps/Soulwire-Website/node_modules/next/compat/router.js",
@@ -208,38 +236,10 @@
     "Apps/Soulwire-Website/node_modules/next/compat",
     "Apps/Soulwire-Website/node_modules/next/navigation.js",
     "Apps/Soulwire-Website/node_modules/next/experimental/testmode/playwright/msw.d.ts",
-    "Apps/Soulwire-Website/node_modules/next/experimental/testmode/playwright/msw.js",
-    "Apps/Soulwire-Website/node_modules/next/experimental/testmode/playwright.js",
-    "Apps/Soulwire-Website/node_modules/next/experimental/testmode/proxy.d.ts",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/SECURITY.md",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/webpack.md",
     "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/logo.svg",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/timeZones.md",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/unicodeTokens.md",
     "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/logotype.svg",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/release.md",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/gettingStarted.md",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/i18nContributionGuide.md",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/i18n.md",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/fp.md",
-    "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/cdn.md",
-    "Apps/Soulwire-Website/node_modules/@hookform/resolvers/README.md",
-    "Apps/Soulwire-Website/node_modules/@radix-ui/react-alert-dialog/README.md",
-    "Apps/Soulwire-Website/node_modules/@radix-ui/react-tabs/README.md",
-    "Apps/Soulwire-Website/node_modules/@radix-ui/react-collapsible/README.md",
-    "Apps/Soulwire-Website/node_modules/@vercel/analytics/README.md",
-    "Apps/Soulwire-Website/node_modules/react-day-picker/README.md",
-    "Apps/Soulwire-Website/node_modules/@radix-ui/react-slot/README.md",
-    "Apps/Soulwire-Website/node_modules/autoprefixer/README.md",
-    "Apps/Soulwire-Website/node_modules/date-fns/docs/unicodeTokens.md",
-    "Apps/Soulwire-Website/node_modules/date-fns/docs/webpack.md",
-    "Apps/Soulwire-Website/node_modules/date-fns/docs/timeZones.md",
-    "Apps/Soulwire-Website/node_modules/date-fns/docs/release.md",
     "Apps/Soulwire-Website/node_modules/date-fns/docs/logotype.svg",
-    "Apps/Soulwire-Website/node_modules/date-fns/docs/i18nContributionGuide.md",
-    "Apps/Soulwire-Website/node_modules/date-fns/docs/i18n.md",
     "Apps/Soulwire-Website/node_modules/date-fns/docs/logo.svg",
-    "Apps/Soulwire-Website/node_modules/date-fns/docs/gettingStarted.md",
     "Apps/Soulwire-Website/node_modules/@supabase/phoenix/priv/static/phoenix.png",
     "Apps/Soulwire-Website/node_modules/@supabase/phoenix/priv/static/phoenix-orange.png",
     "Apps/Soulwire-Website/public/woman-developer.png",
