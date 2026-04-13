@@ -200,6 +200,7 @@
   },
   "active": "291e9c5a76000168",
   "lastOpenFiles": [
+    "README.md",
     "Apps/Soulwire-Website/node_modules/next/package.json",
     "Apps/Soulwire-Website/node_modules/next/script.js",
     "Apps/Soulwire-Website/node_modules/next/compat/router.js",
@@ -210,7 +211,6 @@
     "Apps/Soulwire-Website/node_modules/next/experimental/testmode/playwright/msw.js",
     "Apps/Soulwire-Website/node_modules/next/experimental/testmode/playwright.js",
     "Apps/Soulwire-Website/node_modules/next/experimental/testmode/proxy.d.ts",
-    "Apps/Soulwire-Website/node_modules/next/experimental/testmode/proxy.js",
     "Apps/Soulwire-Website/node_modules/date-fns-jalali/SECURITY.md",
     "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/webpack.md",
     "Apps/Soulwire-Website/node_modules/date-fns-jalali/docs/logo.svg",
